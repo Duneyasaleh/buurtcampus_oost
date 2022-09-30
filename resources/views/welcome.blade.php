@@ -10,7 +10,7 @@
 @section('content')
 <div>
 <div>
-  <h1>Meer over Buurtcompus</h1>
+  <h1>Meer over Buurtcampus</h1>
   <p>In Buurtcampus Oost zoeken studenten samen met bewoners, professionals,
      ondernemers, docenten en onderzoekers gezamenlijk naar oplossingen voor kansrijke uitdagingen uit de buurt.</p>
 </div>
