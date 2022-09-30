@@ -56,10 +56,12 @@
   margin-top: -74px;
   float: right;
   margin-right: 120px;
+  color: #789d4a;
 }
 
 .logonav{
   width: 300px;
+  margin-left: 4em;
   margin-top: -17px;
   cursor: pointer;
 }
@@ -88,6 +90,7 @@
       font-size: 14px;
       margin-top: -110px;
       margin-right: 140px;
+      color: #789d4a;
   }
   .aanbieden{
       margin-right: 10px!important;
@@ -101,3 +104,77 @@
       display: inline-block;
   }
 }
+/* home page */
+.home_page-contiener{
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.achtergrond_home{
+  background-color: #789d4a;
+  width: 450px;
+  height: 450px;
+  z-index: 0;
+  position: relative;
+  border-radius: 20px;
+  -webkit-transform:rotate(60deg);
+  transform: rotate(60deg);
+}
+.home_page-contiener img{
+  width: 34%;
+  z-index: 1;
+  position: absolute;
+  margin-top: -32em;
+}
+.home_page-contiener > .home_page_text {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+ 
+}
+.Home-aanmelden_knop{
+  text-decoration: none;
+  background-color: #789d4a;
+  width: 8.5em;
+  padding: 1.5em;
+  border-radius: 20px;
+  margin-top: 1em;
+  color: white;
+  
+}
+
+/* aanmelden pagina */
+.aanmelden_page{
+  margin-top: 6em;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.registreren_form{
+  padding: 2em;
+  box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  margin: 0 1em;
+}
+.registreren_form > form{
+  display: grid;
+  padding: 1em 0;
+}
+.registreren_form > form > div{
+  display: inline-grid;
+  padding: .5em 0;
+}
+.registreren_form > form > div > input, input[type=submit]{
+padding: 1em ;
+}
+.registreren_form > form > input{
+  border: 1px solid #789d4a;
+}
+.registreren_form > form > input[type=submit]{
+  background-color: #789d4a;
+  border: 1px solid #789d4a;
+  color: white;
+}
+
+
