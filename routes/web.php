@@ -22,3 +22,6 @@ Route::get('/aanmelden', function () {
 Route::get('/user', function () {
     return view('user');
 });
+Route::get('/overzicht_page', function () {
+    return view('overzicht_page');
+});

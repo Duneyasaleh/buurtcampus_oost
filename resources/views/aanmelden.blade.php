@@ -11,7 +11,7 @@
 <section class="aanmelden_page">
 <div class="registreren_form">
   <h2>Inloggen</h2>
-  <form action="/user"> 
+  <form action="/overzicht_page"> 
     <div>
         <label for="lname">E-mail:</label>
         <input type="email" id="mail" name="mail">

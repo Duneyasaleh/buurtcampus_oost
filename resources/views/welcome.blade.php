@@ -21,6 +21,29 @@
      <a href="/aanmelden" class="Home-aanmelden_knop">Aanmelden</a>
 </div>
 </div>
+<div class="home_page-exinfo">
+<div>
+  <img src="{{ asset('../image/stekjes_ruilen.png') }}" alt="Stekje ruilen">
+  <h3>Van klein kastje tot buffetkast</h3>
+  <p>je plaatst een kast in je tuin en je ruilt je plant (of stekje) voor een andere plant. 
+    Stekjesruil wordt steeds populairder in Nederland</p>
+    <a href="/overzicht_page" class="Home-knop_ruilen">Stekje ruilen?</a>
+</div>
+<div>
+  <img src="{{ asset('../image/stekjes_ruilen.png') }}" alt="Stekje ruilen">
+  <h3>Van klein kastje tot buffetkast</h3>
+  <p>je plaatst een kast in je tuin en je ruilt je plant (of stekje) voor een andere plant. 
+    Stekjesruil wordt steeds populairder in Nederland </p>
+    <a href="/overzicht_page" class="Home-knop_ruilen">Stekje ruilen?</a>
+</div>
+<div>
+  <img src="{{ asset('../image/stekjes_ruilen.png') }}" alt="Stekje ruilen">
+  <h3>Van klein kastje tot buffetkast</h3>
+  <p>je plaatst een kast in je tuin en je ruilt je plant (of stekje) voor een andere plant. 
+    Stekjesruil wordt steeds populairder in Nederland </p>
+    <a href="/overzicht_page" class="Home-knop_ruilen">Stekje ruilen?</a>
+</div>
+</div>
 
 @stop
 

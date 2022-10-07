@@ -9,7 +9,6 @@
         <meta name="og:title" property="og:title" content="Duneya">
         <link rel="stylesheet" href="/css/app.css">
         <script src="https://kit.fontawesome.com/6cec8c0b9b.js" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/1df19dbaed.js" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
         <title>Duneya</title>
@@ -56,18 +55,38 @@
     <main>
 
 <section>
-<div class="container ">
+<div class="container-xxl">
             @yield('content')
 </div>
 
 </section>
     </main>
 
-<!-- 
-<footer class="bg-light text-center text-lg-start">
-    <div  class="text-center p-3" style="background-color:#ff5c97;">
-    Copyright&copy; 2020-2021 - Gemaakt door Duneya Saleh
-    </div> -->
-          
+
+<footer>
+<div class="footer_top">
+<div>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-facebook"></i>
+</div>
+   
+<div>
+    <h2>Buurtcampus Oost zoeken studenten</h2>
+    <p>In Buurtcampus Oost zoeken studenten samen met bewoners, professionals,
+         <br>ondernemers, docenten en onderzoekers gezamenlijk naar oplossingen 
+         <br>voor kansrijke uitdagingen uit de buurt.
+</p>
+<a href="/" class="footer-knop">DOE JE OOK MEE?</a>
+</div>
+
+    </div>
+    <div class="footerbottom">
+<p>Buurtcampus is een initiatief van Hogeschool van Amsterdam (HvA) en Openbare Bibliotheek Amsterdam (OBA). Meer Buurtcampussen? <br>Kijk op www.buurtcampusoost.nl of op www.buurtcampusnieuwwest.nl.</p>
+<P><a href="https://www.buurtcampusoost.nl/s/article?urlname=Privacy-Disclaimer-NW">Privacy Disclaimer</a></P>
+
+    </div>
+</footer>
 <body>
 </html>
