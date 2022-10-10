@@ -25,3 +25,6 @@ Route::get('/user', function () {
 Route::get('/overzicht_page', function () {
     return view('overzicht_page');
 });
+Route::get('/verzorgen_page', function () {
+    return view('verzorgen_page');
+});

@@ -34,7 +34,7 @@
   <h3>Van klein kastje tot buffetkast</h3>
   <p>je plaatst een kast in je tuin en je ruilt je plant (of stekje) voor een andere plant. 
     Stekjesruil wordt steeds populairder in Nederland </p>
-    <a href="/overzicht_page" class="Home-knop_ruilen">Stekje ruilen?</a>
+    <a href="/verzorgen_page" class="Home-knop_ruilen">Stekje verzorgen?</a>
 </div>
 <div>
   <img src="{{ asset('../image/stekjes_ruilen.png') }}" alt="Stekje ruilen">
