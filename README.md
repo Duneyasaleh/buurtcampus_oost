@@ -1,6 +1,6 @@
 # Buurtcampus oost.
 
--- Bij Buurtcampus wordt op korte termijn een stekjesbieb neergezet. Buurtbewoners kunnen stekjes halen uit de stekjesbieb, maar ook stekjes brengen naar de stekjesbieb.
+- Bij Buurtcampus wordt op korte termijn een stekjesbieb neergezet. Buurtbewoners kunnen stekjes halen uit de stekjesbieb, maar ook stekjes brengen naar de stekjesbieb.
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
