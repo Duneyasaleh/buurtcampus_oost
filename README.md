@@ -21,9 +21,9 @@ online link: https://buurtcampusoost.duneyasaleh.com/public/
 
 ## Kenmerken
 Ik heb voor deze procjt een framwork laravel :
-1- PHP
-2- HTML
-3- CSS
+- PHP
+- HTML
+- CSS
 
 ## Bronnen
 
