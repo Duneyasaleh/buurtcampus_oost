@@ -15,7 +15,9 @@
   - Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen
  
 mijn oplossing was een systeem bouwen met waar in een account kan maken en je ervaring kan delen met je buurtbewoners en je kan ook stekjes ruilen met mensen, ook als je een admin kan je toevoegen wat voor stekjes zijn beschikbaar en welke moet het terug brengen ect.
-![image](https://user-images.githubusercontent.com/54691201/195327820-f843f04d-a549-4133-a664-8da6b8c04a4f.png)
+![image](https://user-images.githubusercontent.com/54691201/195444237-ccd2eae8-3c34-428a-acf1-a7b03da47b9b.png)
+![image](https://user-images.githubusercontent.com/54691201/195444184-ee72ee94-4bc8-4e33-af1d-bb224cc48871.png)
+
 
 online link: https://buurtcampusoost.duneyasaleh.com/public/
 
