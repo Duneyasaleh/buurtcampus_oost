@@ -14,7 +14,7 @@
   - Als buurtbewoner van Amsterdam Oost wil ik informatie vinden over de positieve bijdrage van planten op de leefomgeving, zodat ik gemotiveerd raak stekjes te planten in mijn omgeving
   - Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen
  
-mijn oplossing was een systeem bouwen met waar in een account kan maken en je ervaring kan delen met je bbuurtbewoners en je kan ook stekjes ruilen met mensen, ook als je een admin kan je toevoegen wat voor stekjes zijn beschiekbaar en welke moet het terug bregen ect.
+mijn oplossing was een systeem bouwen met waar in een account kan maken en je ervaring kan delen met je buurtbewoners en je kan ook stekjes ruilen met mensen, ook als je een admin kan je toevoegen wat voor stekjes zijn beschikbaar en welke moet het terug brengen ect.
 ![image](https://user-images.githubusercontent.com/54691201/195327820-f843f04d-a549-4133-a664-8da6b8c04a4f.png)
 
 online link: https://buurtcampusoost.duneyasaleh.com/public/
