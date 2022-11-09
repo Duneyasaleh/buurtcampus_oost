@@ -28,3 +28,5 @@ Route::get('/overzicht_page', function () {
 Route::get('/verzorgen_page', function () {
     return view('verzorgen_page');
 });
+// Route::get('/user/create', [PostController::class, 'create']);
+Route::get('/posten', 'PostController@index')->name('post');

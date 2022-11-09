@@ -4,13 +4,16 @@
 @tailwind utilities;
 
 :root {
-  --primary-color:#789d4a;
+  --primary-color:#268519;
   --secondary-color: #333467;
 }
 *{
     font: 100%/1.2 Arial, Helvetica, sans-serif;
 }
- h3, h4, p{
+/* h1{
+  max-width: 33rem;
+} */
+ h2, h3, h4, p{
   max-width: 30rem;
 }
 .menu {
@@ -66,54 +69,25 @@ color: var(--primary-color);
 }
 
 .logonav{
-  width: 300px;
+  width: 250px;
   margin-left: 4em;
-  margin-top: -17px;
   cursor: pointer;
 }
 
 .aanbieden{
   margin-right: 350px!important;
 }
-@media only screen and (max-width: 800px) and (orientation: portrait) { 
-  .bovennav > a{
-      margin-left: 20px;
-      margin-top: -15px;
-      font-size: 16px;
-  }
 
-  .bovennav{
-      margin-left: 0px; 
-  }
 
-  .logonav{
-      margin-left: -30px;
-      width: 200px;
-      margin-top: -10px;
-  }
-
-  .hulp-items > a{
-      font-size: 14px;
-      margin-top: -110px;
-      margin-right: 140px;
-      color: var(--primary-color);
-  }
-  .ondernav{
-      height: 50px;
-  }
-
-  .navitems{
-      margin-left: -40px;
-      display: inline-block;
-  }
-}
 /* home page */
 
-.home_page-contiener{
+.home_page-container{
   margin-top: 5em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
+  height: 450px;
+
 }
 .achtergrond_home{
   background-color: var(--primary-color);
@@ -121,17 +95,20 @@ color: var(--primary-color);
   height: 450px;
   z-index: 0;
   position: relative;
-  border-radius: 20px;
-  -webkit-transform:rotate(60deg);
-  transform: rotate(60deg);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
-.home_page-contiener img{
-  width: 34%;
+.groene_achter-img{
+  position: relative;
+  width: 550px;
+}
+.home_page-container img{
+  width: 86%;
   z-index: 1;
   position: absolute;
-  margin-top: -32em;
+  bottom: 0;
+  right: 0;
 }
-.home_page-contiener > .home_page_text {
+.home_page-container > .home_page_text {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -143,12 +120,11 @@ color: var(--primary-color);
   background-color: var(--primary-color);
   width: 8.5em;
   padding: 1.5em;
-  border-radius: 20px;
   margin-top: 1em;
   color: white;
   
 }
-.home_page-contiener a:hover{
+.home_page-container a:hover{
   color: var(--primary-color);
   background-color: transparent;
   border: 2px solid var(--primary-color);
@@ -167,9 +143,10 @@ color: var(--primary-color);
   margin-right: auto;
   width: 30%;
 }
-.home_page-exinfo h3{
+.home_page-exinfo h2{
   color: var(--primary-color);
   margin-top: 1em;
+  font-size: x-large;
 }
 .home_page-exinfo p{
   margin-bottom: 4em;
@@ -179,7 +156,6 @@ color: var(--primary-color);
   background-color: var(--primary-color);
   width: 8.5em;
   padding: 1.5em;
-  border-radius: 20px;
   color: white;
 }
 .home_page-exinfo  a:hover{
@@ -284,7 +260,25 @@ align-items: center;
   position: absolute;
   align-items: center;
 }
+/* user pagina  */
+.user_page{
+  padding: 5em 0;
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  gap: 1em;
+ 
+}
+.user_page-info{
+  padding: 1em;
+  /* border: 1px solid black; */
+  box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.2);
 
+}
+.user_page-posten{
+  box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.2);
+}
 /* verzorgen page */
 
 .verzorgen_page{
@@ -299,18 +293,23 @@ align-items: center;
   flex-direction: column;
   justify-content: center;
 }
+
 .verzorgen_page-img img{
-  width: 34%;
+  width: 56%;
   z-index: 1;
   position: absolute;
-  margin-top: -32em;
+  bottom: 0;
+  right: 0;
+}
+.verzorgen_page-img{
+  position: relative;
+  width: 450px;
 }
 .Home-verzorgen_knop {
   text-decoration: none;
   background-color: var(--primary-color);
   width: 9.5em;
   padding: 1.5em;
-  border-radius: 20px;
   margin-top: 1em;
   color: white;
 }
@@ -341,7 +340,6 @@ align-items: center;
   border: 2px solid white;
   width: 8.5em;
   padding: 1.5em;
-  border-radius: 20px;
   color: white;
   
 }
@@ -359,6 +357,138 @@ align-items: center;
   fill: var(--primary-color);
   transition: .7s;
  }
+
+
+ @media only screen and (max-width: 60em) and (orientation: portrait) { 
+  .bovennav > a{
+    margin-left: 12px;
+    margin-top: -15px;
+    font-size: 13px;
+  }
+
+  .bovennav{
+      margin-left: 0px; 
+  }
+
+  .logonav{
+      margin-left: 9px;
+      width: 200px;
+      margin-top: -10px;
+  }
+  .aanbieden {
+    margin-right: 119px!important;
+}
+  .hulp-items > a{
+      font-size: 14px;
+      /* margin-top: -110px;
+      margin-right: 140px; */
+      color: var(--primary-color);
+      margin-right: 45px;
+  }
+  .ondernav{
+      height: 50px;
+  }
+
+  .navitems{
+      /* margin-left: 50px; */
+      display: inline-block;
+  }
+/* home page */
+.home_page-container, .verzorgen_page {
+  display: block;
+  padding: 0 0 0 1em  ;
+  margin-top: 2em;
+}
+.achtergrond_home {
+  width: 150px;
+  height: 150px;
+}
+.groene_achter-img{
+  width:175px;
+}
+.home_page-container img, .verzorgen_page-img img{
+ width: 100%;
+ left: 0;
+}
+.home_page-container > .home_page_text , .verzorgen_page-info {
+  margin-top: 2em;
+}
+.home_page-exinfo {
+ display: block;
+  padding: 6em 0 6em 0;
+  text-align: center;
+}
+.home_page-exinfo div{
+  padding: 0 0 4em 0;
+ }
+/* aanmeld page */
+
+.aanmelden_page {
+  margin: 6em 0;
+  display: block;
+}
+/* overzicht page */
+.overzicht_page-container {
+  display: block;
+  gap: 1em;
+}
+.overzicht_page-stekjes_lijs {
+  margin-top:3em;
+  width: 100%;
+  height: 431px;
+
+}
+.overzicht_page-stekjes_lijs {
+  margin-top: 5em;
+  width: 100%;
+  height: 431px;
+  overflow: auto;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+}
+.user_post-card{
+  display: block;
+}
+.user_info {
+  border-bottom: 1px solid var(--primary-color);
+  margin-bottom: 16px;
+}
+
+/* verzorgen page */
+.verzorgen_page-img img {
+  width: 30%;
+  z-index: 1;
+  position: absolute;
+  margin-top: -10em;
+  margin-left: 2em;
+}
+ .verzorgen_page {
+  display: block;
+  padding: 0 0 0 1em  ;
+  margin-top: 2em;
+}
+.verzorgen_page-img{
+  margin-top: 4em;
+}
+
+
+ /* footer */
+ .footer_top {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 4em 3em;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.footer_top div{
+  padding-bottom: 2.5em;
+}
+.footerbottom {
+  padding: 2em 3em 0 3em;
+}
+
+}
 
 
 
